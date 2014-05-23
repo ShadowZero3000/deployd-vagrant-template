@@ -1,0 +1,21 @@
+# Configuration for librarian-puppet. For example:
+#
+forge "http://forge.puppetlabs.com"
+#
+#mod "puppetlabs/razor"
+# mod "puppetlabs/ntp", "0.0.3"
+#
+#mod "apt",
+#   :git => "git://github.com/puppetlabs/puppetlabs-apt.git"
+
+#mod "stdlib",
+#   :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+mod "puppetlabs/stdlib"
+
+#mod 'rvm', :git => "git://github.com/blt04/puppet-rvm.git"
+
+mod "maestrodev/wget"
+mod "willdurand/nodejs",  :git => "git://github.com/willdurand/puppet-nodejs.git"
+mod "puppetlabs/mongodb"
+mod "krakatoa/upstart"
+mod "puppetlabs/haproxy"

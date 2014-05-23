@@ -1,0 +1,4 @@
+/bin/cp <%= scope['::app_folder'] %> <%= scope['::build_folder'] %> -R
+cd <%= scope['::build_folder'] %>
+/usr/bin/npm install
+/bin/cp <%= scope['::build_folder'] %> <%= scope['::app_folder'] %> -R

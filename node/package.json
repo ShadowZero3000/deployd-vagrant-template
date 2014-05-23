@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "main": "lib/app.js",
+  "description": "The best module ever.",
+  "homepage": "somewhere",
+  "bugs": "user/repo/issues",
+  "author": {
+    "name": "Author Name",
+    "email": "development@viawest.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "user/repo"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "files": [
+    ""
+  ],
+  "keywords":[
+  ],
+  "dependencies": {
+    "nconf":"~0.6.9",
+    "deployd": "~0.6.10"
+  },
+  "scripts": {
+  }
+}
